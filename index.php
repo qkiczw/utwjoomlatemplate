@@ -17,11 +17,12 @@
 </head> 
  
 <body> 
+    <div class="container-fluid">
         <section id="header">
             <div class="container-fluid">
                 <row>
                     <header clas="col-12">
-                        <img src="temlplates/<?php echo $this->template; ?>/images/header-bg.jpg" class="img-fluid" alt="CKU header image">
+                        <img src="templates/<?php echo $this->template; ?>/images/header-bg.jpg" class="img-fluid" alt="CKU header image">
                         <!-- <jdoc:include type="modules" name="header" style="xhtml" /> -->
                     </header>
                 </row>
@@ -30,7 +31,12 @@
         <section id="nav">
             <div class="container">
                 <row>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <ul>
+                    <li>Start</li>
+                    <li>Aktualności</li>
+                </ul>
+
+                <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,7 +49,7 @@
                     <a class="nav-item nav-link disabled" href="#">Disabled</a>
                     </div>
                 </div>
-                </nav>
+                </nav> -->
 
 
                     <!-- <nav class="main-nav">
@@ -107,11 +113,12 @@
                         </footer>
                     </row>
                 </div>
-            </section>
+        </section>
+    </div>
 
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="http://code.jquery.com/jquery-latest.js"></script> 
-<script src="media/jui/js/bootstrap.min.js"></script> 
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
 </body> 
  
