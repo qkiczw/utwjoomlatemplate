@@ -43,7 +43,7 @@
                         <div class="navbar-nav">
                         <a class="nav-item nav-link active" href="#">Start <span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="#">O nas</a>
-                        <a class="nav-item nav-link" href="#">Aktualnośći</a>
+                        <a class="nav-item nav-link" href="#">Aktualności</a>
                         <a class="nav-item nav-link disabled" href="#">Plan</a>
                         </div>
                     </div>
