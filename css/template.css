@@ -1,5 +1,7 @@
-.body{
+.base-color{
+background-color: burlywood;
 }
+
 header{
     box-sizing: border-box;
     width: 100%;
@@ -9,8 +11,10 @@ header{
 
 
 .main-nav{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
     width: 100%;
-    /* position: fixed; */
     background-color: rgb(5, 130, 231);
     min-height: 70px;
     color: #FFFFFF;
