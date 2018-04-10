@@ -9,15 +9,16 @@
     <meta charset="UTF-8">
     <title>UTW</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    
+	
+    <jdoc:include type="head" /> 
     <!-- Google Font-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <!-- Font Awesome-->
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <!--My css-->
-    <link rel="Stylesheet" type="text/css" href="css/style.css" />
+    <!--CSS-->
+    <link href="templates/<?php echo $this->template; ?>/css/my-responsive.css" rel="stylesheet">
+    <link href="templates/<?php echo $this->template; ?>/css/template.css" rel="stylesheet">
 
 </head>
 <body>
@@ -25,11 +26,16 @@
     <div class="container-fluid">
         <!--Header-->
         <header>
-            
+           <div class="container-fluid header-content-area">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3">Logo</div>
+                    <div class="col-sm-12 col-md-9">NAzwa Szkoly</div>
+                </div>
+           </div>
         </header>
         <!-- Main site content -->
         <main>
-            
+        
         </main>
         <!--Footer-->
         <footer>
