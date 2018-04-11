@@ -56,12 +56,22 @@
         </section>
         <!-- Main site content -->
         <main>
-            <section id="last-news-section">
             <!-- Main news -->
+            <section id="last-news-section">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-12 last-news">
                                 <jdoc:include type="modules" name="lastnews" style="xhtml" /> 
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <!-- Main content -->
+            <section id="main-content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 main-content">
+                                <jdoc:include type="component" /> 
                             </div>
                         </div>
                     </div>
