@@ -67,11 +67,21 @@
                     </div>
             </section>
             <!-- Main content -->
-            <section id="main-content">
+            <section id="main-content-section">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-12 main-content">
                                 <jdoc:include type="component" /> 
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <!-- About Us -->
+            <section id="main-about-us-section">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 about-us">
+                            <jdoc:include type="modules" name="mainaboutus" style="xhtml" /> 
                             </div>
                         </div>
                     </div>
