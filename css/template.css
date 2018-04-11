@@ -126,21 +126,11 @@ a.mod-articles-category-title:last-child{
 }
 
 /* MAIN SCHEDULE */
-.moduletablemain-schedule-module{
-    
-}
+.schedule-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.main-schedule{
-    box-sizing: border-box;
-}
-.schedule-img{
-    padding-bottom: 10px;
-    margin-top: 10px
-}
-.schedule-img:hover{
-   padding-bottom: 0;
-    width: 320px;
-    z-index: 100;
 }
 
 .main-contact{
