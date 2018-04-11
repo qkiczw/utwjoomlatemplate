@@ -90,11 +90,16 @@ a.mod-articles-category-title:last-child{
     line-height: 1.7rem;
 }
 
-.main-about-us{
+/* MAIN ABOUT US */
+.moduletablemain-about-us-module{
+    background-color: #FFD54F;
+}
+
+/* .main-about-us{
     background-color: gold;
     font-size: 1.5rem;
     line-height: 1.7rem;
-}
+} */
 
 .main-about-us .read-more{
     display: flex;

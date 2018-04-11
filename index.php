@@ -86,6 +86,16 @@
                         </div>
                     </div>
             </section>
+             <!-- Main Schedule -->
+             <section id="main-schedule-section">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 main-schedule">
+                            <jdoc:include type="modules" name="mainschedule" style="xhtml" /> 
+                            </div>
+                        </div>
+                    </div>
+            </section>
         </main>
         <!--Footer-->
         <footer>
