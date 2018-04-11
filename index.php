@@ -96,6 +96,16 @@
                         </div>
                     </div>
             </section>
+            <!-- Main Contact -->
+            <section id="main-contact-section">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 main-contact">
+                            <jdoc:include type="modules" name="maincontact" style="xhtml" /> 
+                            </div>
+                        </div>
+                    </div>
+            </section>
         </main>
         <!--Footer-->
         <footer>

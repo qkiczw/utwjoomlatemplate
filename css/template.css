@@ -125,6 +125,11 @@ a.mod-articles-category-title:last-child{
     margin: 25px auto;
 }
 
+/* MAIN SCHEDULE */
+.moduletablemain-schedule-module{
+    
+}
+
 .main-schedule{
     box-sizing: border-box;
 }
@@ -139,7 +144,7 @@ a.mod-articles-category-title:last-child{
 }
 
 .main-contact{
-    background-color: rgb(5, 130, 231);
+    background-color: #2196F3;
     font-size: 2rem;
     line-height: 2.3rem;
 }
