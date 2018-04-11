@@ -33,8 +33,9 @@
                             <div class="col-sm-12 col-md-9 header-school-name">NAzwa Szkoly</div>
                         </div>
                 </div>
-                <!-- Navigation menu -->
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            </header>
+            <!-- Navigation menu -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <a class="navbar-brand" href="#">UTW</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -44,20 +45,32 @@
                         <a class="nav-item nav-link active" href="#">Start <span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="#">O nas</a>
                         <a class="nav-item nav-link" href="#">Aktualności</a>
-                        <a class="nav-item nav-link disabled" href="#">Plan</a>
+                        <a class="nav-item nav-link" href="#">Rekrutacja</a>
+                        <a class="nav-item nav-link" href="#">Plan</a>
+                        <a class="nav-item nav-link" href="#">Turystyka</a>
+                        <a class="nav-item nav-link" href="#">Projekty</a>
+                        <a class="nav-item nav-link" href="#">Kontakt</a>
                         </div>
                     </div>
                 </nav>
-            </header>
         </section>
         <!-- Main site content -->
         <main>
-        
+            <section id="last-news-section">
+            <!-- Main news -->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 last-news">
+                                <jdoc:include type="modules" name="lastnews" style="xhtml" /> 
+                            </div>
+                        </div>
+                    </div>
+            </section>
         </main>
         <!--Footer-->
         <footer>
             <section id="footer">
-               <p>Łukasz Sztormowski &copy; 2018</p>
+               <center><p>Łukasz Sztormowski &copy; 2018</p></center>
             </section>
         </footer>
     </div>
