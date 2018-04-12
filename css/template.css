@@ -135,7 +135,20 @@ a.mod-articles-category-title:last-child{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
+}
+.schedule-icon{
+    position: relative;
+    max-width: 400px;
+    padding: 5px;
+}
+
+.schedule-icon:hover{
+    
+    max-width: 405px;
+    padding: 0px;
+    cursor: pointer;
 }
 
 /* MAIN CONTACT */
