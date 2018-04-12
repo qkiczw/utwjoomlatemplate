@@ -80,7 +80,7 @@
             <section id="main-about-us-section">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-sm-12 about-us">
+                            <div class="col-sm-12 main-about-us">
                             <jdoc:include type="modules" name="mainaboutus" style="xhtml" /> 
                             </div>
                         </div>
