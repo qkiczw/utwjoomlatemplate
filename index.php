@@ -43,13 +43,13 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                         <a class="nav-item nav-link active" href="#">Start <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#">O nas</a>
-                        <a class="nav-item nav-link" href="#">Aktualności</a>
-                        <a class="nav-item nav-link" href="#">Rekrutacja</a>
-                        <a class="nav-item nav-link" href="#">Plan</a>
-                        <a class="nav-item nav-link" href="#">Turystyka</a>
-                        <a class="nav-item nav-link" href="#">Projekty</a>
-                        <a class="nav-item nav-link" href="#">Kontakt</a>
+                        <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=6">O nas</a>
+                        <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=category&id=8">Aktualności</a>
+                        <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=3">Rekrutacja</a>
+                        <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=1">Plan</a>
+                        <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=5">Turystyka</a>
+                        <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=4">Projekty</a>
+                        <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=2">Kontakt</a>
                         </div>
                     </div>
                 </nav>
