@@ -12,7 +12,7 @@ const jQwindow = jQuery(window);
 function testme() {
     console.log(jQwindow.scrollTop())
     if(jQwindow.scrollTop() > 500){
-        cosnole.log('tu jest 500');
+        console.log('tu jest 500');
     }
 };
 

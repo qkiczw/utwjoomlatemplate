@@ -91,13 +91,19 @@ a.mod-articles-category-title:last-child{
 /* MAIN CONTENT */
 #main-container{
     font-size: 1.3rem;
-    /* line-height: 1.6rem; */
+    line-height: 1.6rem;
 }
 
 /* MAIN ABOUT US */
+
+.main-about-us{
+    padding: 0;
+}
 .moduletablemain-about-us-module{
     background-color: #FFD54F;
+    padding-left: 10px;
 }
+
 .main-about-us h3{
     font-size: 2rem;
     text-align: center;
