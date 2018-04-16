@@ -1,3 +1,7 @@
+body{
+font-size: 20px;
+}
+
 /*remove margins and padding from left and right side of site*/
 .row{
     margin-left: 0;
@@ -60,11 +64,11 @@ nav ul li{
 
 /* LAST NEWS */
 .last-news{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .last-news h3{
-    font-size: 2.8rem;
+    font-size: 2rem;
     text-align: center;
     padding-top: 10px;
 }
@@ -86,8 +90,8 @@ a.mod-articles-category-title:last-child{
 
 /* MAIN CONTENT */
 #main-container{
-    font-size: 1.5rem;
-    line-height: 1.7rem;
+    font-size: 1.3rem;
+    /* line-height: 1.6rem; */
 }
 
 /* MAIN ABOUT US */
@@ -95,7 +99,7 @@ a.mod-articles-category-title:last-child{
     background-color: #FFD54F;
 }
 .main-about-us h3{
-    font-size: 2.8rem;
+    font-size: 2rem;
     text-align: center;
     padding-top: 10px;
 }
@@ -104,29 +108,36 @@ a.mod-articles-category-title:last-child{
     display: flex;
     justify-content: center;
 }
+
+.about-us-btn-paragraph{
+    display: flex;
+    justify-content: center;
+}
 .about-us-btn{
-    background: none;
-    padding: 15px 25px;
+    background-color: #FFE082;
+    /* background: none; */
+    padding: 5px 15px;
     border: 2px solid black;
     border-radius: 25px;
-    font-size: 1.5rem;
-    margin: 25px auto;
+    font-size: 1.3rem;
+    font-weight: bold;
     transition-duration: 0.3s;
+    margin-bottom: 20px;
 }
 
 .about-us-btn:hover{
     background: black;
     color: gold;
-    padding: 15px 25px;
     border: 2px solid black;
     border-radius: 25px;
-    font-size: 1.5rem;
-    margin: 25px auto;
+    cursor: pointer;
+    padding: 5px 25px;
+
 }
 
 /* MAIN SCHEDULE */
 .main-schedule h3{
-    font-size: 2.8rem;
+    font-size: 2rem;
     text-align: center;
     padding-top: 10px;
 }
@@ -153,7 +164,7 @@ a.mod-articles-category-title:last-child{
 
 /* MAIN CONTACT */
 .main-contact h3{
-    font-size: 2.8rem;
+    font-size: 2rem;
     text-align: center;
     padding-top: 10px;
 }
@@ -187,4 +198,9 @@ p:last-child{
 /* Main Section Article Title */
 .mod-articles-category-title{
     font-size: 28px;
+}
+
+.page-header > h2 {
+    text-align: center;
+    padding: 10px;
 }
