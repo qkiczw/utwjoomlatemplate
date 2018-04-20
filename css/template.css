@@ -28,7 +28,8 @@ header{
 }
 .header-content-area{
 }
-.header-logo, .header-school-name{
+.header-logo{
+    max-width: 200px;
 }
 
 

@@ -29,8 +29,8 @@
             <header>
                 <div class="container-fluid header-content-area">
                         <div class="row">
-                            <div class="col-sm-12 col-md-3 header-logo">Logo</div>
-                            <div class="col-sm-12 col-md-9 header-school-name">NAzwa Szkoly</div>
+                            <div class="col-sm-12 col-md-3 header-logo"><figure><img class="header-logo img-fluid" src="templates/<?php echo $this->template; ?>/images/utw-logo.png"></figure></div>
+                            <div class="col-sm-12 col-md-9 header-school-name">Sopocki Uniwersytet Trzeciego Wieku</div>
                         </div>
                 </div>
             </header>
