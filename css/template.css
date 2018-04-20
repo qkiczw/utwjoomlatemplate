@@ -131,25 +131,21 @@ a.mod-articles-category-title:last-child{
     justify-content: center;
 }
 .about-us-btn{
-    background-color: #FFE082;
-    /* background: none; */
+    background: #2196F3;
+    color: #FFFFFF;
     padding: 5px 15px;
-    border: 2px solid black;
-    border-radius: 25px;
+    border: none;
+    border-radius: 20px;
     font-size: 1.3rem;
-    font-weight: bold;
+    /* font-weight: bold; */
     transition-duration: 0.3s;
     margin-bottom: 20px;
 }
 
 .about-us-btn:hover{
-    background: black;
-    color: gold;
-    border: 2px solid black;
-    border-radius: 25px;
+    background: #1565C0;
+    color: #FFFFFF;
     cursor: pointer;
-    padding: 5px 25px;
-
 }
 
 /* MAIN SCHEDULE */
@@ -161,6 +157,7 @@ a.mod-articles-category-title:last-child{
 
 .schedule-icons{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -189,11 +186,10 @@ a.mod-articles-category-title:last-child{
     background-color: #2196F3;
     font-size: 2rem;
     line-height: 2.3rem;
-}
-
-.main-contact{
+    padding-bottom: 20px;
     color: #FFFFFF
 }
+
 .main-contact a{
  color: #FFFFFF;
 }
