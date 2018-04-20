@@ -161,7 +161,7 @@ a.mod-articles-category-title:last-child{
     justify-content: center;
     align-items: center;
     position: relative;
-
+    font-size: 2rem;
 }
 .schedule-icon{
     position: relative;
@@ -170,9 +170,6 @@ a.mod-articles-category-title:last-child{
 }
 
 .schedule-icon:hover{
-    
-    max-width: 405px;
-    padding: 0px;
     cursor: pointer;
 }
 
@@ -186,8 +183,7 @@ a.mod-articles-category-title:last-child{
     background-color: #2196F3;
     font-size: 2rem;
     line-height: 2.3rem;
-    padding-bottom: 20px;
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 .main-contact a{
