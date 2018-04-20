@@ -9,8 +9,6 @@
     <meta charset="UTF-8">
     <title>UTW</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-	
     <jdoc:include type="head" /> 
     <!-- Google Font-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
@@ -29,8 +27,8 @@
             <header>
                 <div class="container-fluid header-content-area">
                         <div class="row">
-                            <div class="col-sm-12 col-md-3 header-logo"><figure><img class="header-logo img-fluid" src="templates/<?php echo $this->template; ?>/images/utw-logo.png"></figure></div>
-                            <div class="col-sm-12 col-md-9 header-school-name">Sopocki Uniwersytet Trzeciego Wieku</div>
+                            <div class="col-sm-12 col-md-5 col-lg-4 header-logo-area"><figure><img class="header-logo img-fluid mx-auto d-block" src="templates/<?php echo $this->template; ?>/images/utw-logo.png"></figure></div>
+                            <div class="col-sm-12 col-md-7 col-lg-8 header-school-name">Sopocki Uniwersytet Trzeciego Wieku</div>
                         </div>
                 </div>
             </header>

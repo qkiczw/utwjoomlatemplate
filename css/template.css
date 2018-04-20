@@ -22,14 +22,24 @@ header{
     box-sizing: border-box;
     height: 400px;
     background-image: url("../images/header-bg.jpg");
-    /* background-attachment: fixed; */
     background-position: 50% 50%;
-    /* background-size: cover ; */   
 }
-.header-content-area{
+
+.header-logo-area{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 .header-logo{
-    max-width: 200px;
+    max-width: 250px;
+}
+.header-school-name{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 1.2;
+
 }
 
 
@@ -211,3 +221,27 @@ p:last-child{
     text-align: center;
     padding: 10px;
 }
+
+/*---- MEDIA QUERIES ----*/
+@media (min-width: 576px) {
+    .header-logo{
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-school-name{
+        display: flex;
+        align-items: center;
+        font-size: 2rem;    
+    }
+ }
+
+ @media (min-width: 1200px) {
+    .header-logo{
+        max-width: 400px;
+    }
+    .header-school-name{
+        font-size: 4.5rem;    
+    }
+  }
