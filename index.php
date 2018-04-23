@@ -34,7 +34,7 @@
             </header>
             <!-- Navigation menu -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#">UTW</a>
+                    <a class="navbar-brand" href="#"><div><img class="utw-logo-min img-fluid" src="templates/<?php echo $this->template; ?>/images/utw-logo-min.png"></div><div class="navbar-brand-text">UTW</div></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

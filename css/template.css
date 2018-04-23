@@ -1,6 +1,9 @@
 body{
 font-size: 20px;
 }
+.hidden{
+display: none;
+}
 
 /*remove margins and padding from left and right side of site*/
 .row{
@@ -25,11 +28,6 @@ header{
     background-position: 50% 50%;
 }
 
-.header-logo-area{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
 .header-logo{
     max-width: 250px;
 }
@@ -42,6 +40,18 @@ header{
 
 }
 
+/* NAV */
+.utw-logo-min{
+    max-width: 50px;
+    display: none;
+    transition-duration:4s;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    transition-duration:4s;
+}
 
 .main-nav{
     display: flex;
@@ -76,7 +86,6 @@ nav ul li{
 /* LAST NEWS */
 .last-news{
     box-sizing: border-box;
-    /* height: 400px; */
     background-image: url("../images/news-bg.jpg");
     background-position: 50% 50%;
     background-attachment: fixed;
@@ -89,7 +98,8 @@ nav ul li{
 .last-news h3{
     font-size: 2rem;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .last-news ul{
@@ -114,7 +124,6 @@ a.mod-articles-category-title:last-child{
 }
 
 /* MAIN ABOUT US */
-
 .main-about-us{
     padding: 0;
 }
@@ -126,11 +135,14 @@ a.mod-articles-category-title:last-child{
 .main-about-us h3{
     font-size: 2rem;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 .about-us-img{
     border: 3px solid #2196F3;
     border-radius: 10px;
+    position: relative;
+    left: -1000px;
 }
 
 .main-about-us .read-more{
@@ -169,7 +181,8 @@ a.mod-articles-category-title:last-child{
 .main-schedule h3{
     font-size: 2rem;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .schedule-icons{
@@ -194,7 +207,8 @@ a.mod-articles-category-title:last-child{
 .main-contact h3{
     font-size: 2rem;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 .main-contact{
     background-color: #2196F3;
