@@ -75,6 +75,14 @@ nav ul li{
 
 /* LAST NEWS */
 .last-news{
+    box-sizing: border-box;
+    /* height: 400px; */
+    background-image: url("../images/news-bg.jpg");
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+.last-news{
     font-size: 1.3rem;
 }
 
@@ -120,6 +128,10 @@ a.mod-articles-category-title:last-child{
     text-align: center;
     padding-top: 10px;
 }
+.about-us-img{
+    border: 3px solid #2196F3;
+    border-radius: 10px;
+}
 
 .main-about-us .read-more{
     display: flex;
@@ -149,6 +161,11 @@ a.mod-articles-category-title:last-child{
 }
 
 /* MAIN SCHEDULE */
+.main-schedule{
+    background-image: url("../images/schedule-bg.jpg");
+    background-position: 10% 10%;
+    background-attachment: fixed;
+}
 .main-schedule h3{
     font-size: 2rem;
     text-align: center;
