@@ -44,13 +44,14 @@ header{
 .utw-logo-min{
     max-width: 50px;
     display: none;
-    transition-duration:4s;
 }
 
 .navbar-brand{
     display: flex;
     align-items: center;
-    transition-duration:4s;
+}
+.navbar-brand-text{
+    position: absolute;
 }
 
 .main-nav{
@@ -89,10 +90,6 @@ nav ul li{
     background-image: url("../images/news-bg.jpg");
     background-position: 50% 50%;
     background-attachment: fixed;
-}
-
-.last-news{
-    font-size: 1.3rem;
 }
 
 .last-news h3{
