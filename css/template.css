@@ -141,6 +141,16 @@ a.mod-articles-category-title:last-child{
     position: relative;
     left: -1000px;
 }
+.about-us-icons{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.about-us-icons img:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 50%;
+}
 
 .main-about-us .read-more{
     display: flex;
@@ -194,6 +204,7 @@ a.mod-articles-category-title:last-child{
     position: relative;
     max-width: 400px;
     padding: 5px;
+    display: none;
 }
 
 .schedule-icon:hover{

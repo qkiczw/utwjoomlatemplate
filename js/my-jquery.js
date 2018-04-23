@@ -15,6 +15,8 @@ jQuery(document).ready(function() {
             // jQuery('.utw-logo-min').css('display', 'block');
             jQuery('.utw-logo-min').fadeIn('slow');
             jQuery('.navbar-brand-text').fadeOut('fast');
+
+            console.log('od góry: ' + jQwindow.scrollTop() + 'px');
             
         } else{
             jQuery('.navbar').removeClass('fixed-top');
@@ -22,5 +24,13 @@ jQuery(document).ready(function() {
             jQuery('.navbar-brand-text').fadeIn();
         }
     }
+
+    function scheduleIconsShow() {
+        if(jQwindow.scrollTop() > 920){
+            jQuery('.schedule-icon').fadeIn(1000);
+        }
+    }
+
     jQwindow.on('scroll', setMenuFixed);
+    jQwindow.on('scroll', scheduleIconsShow);
 });
