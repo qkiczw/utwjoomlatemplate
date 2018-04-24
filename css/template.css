@@ -150,6 +150,12 @@ a.mod-articles-category-title:last-child{
     cursor: pointer;
     box-shadow: 1px 1px 5px black;
     border-radius: 50%;
+    transform: rotate(10deg);
+}
+
+.about-us-icon1, .about-us-icon2, .about-us-icon3{
+    /* display: none; */
+    opacity: 0;
 }
 
 .main-about-us .read-more{
@@ -199,18 +205,36 @@ a.mod-articles-category-title:last-child{
     align-items: center;
     position: relative;
     font-size: 2rem;
+    overflow: hidden;
 }
 .schedule-icon{
     position: relative;
     max-width: 400px;
     padding: 5px;
-    display: none;
 }
 
 .schedule-icon:hover{
     cursor: pointer;
 }
 
+.schedule-icon1{
+    position: relative;
+    left: -1500px;
+}
+.schedule-icon2{
+    position: relative;
+    left: 1500px;
+}
+.schedule-icon1:hover{
+    position: relative;
+    left: -1500px;
+    transform: rotate(5deg);
+}
+.schedule-icon2:hover{
+    position: relative;
+    left: -1500px;
+    transform: rotate(-5deg);
+}
 /* MAIN CONTACT */
 .main-contact h3{
     font-size: 2rem;

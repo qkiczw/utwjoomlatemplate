@@ -5,14 +5,16 @@ jQuery.noConflict();
 jQuery(document).ready(function() {
     const jQwindow = jQuery(window);
     let JQueryScheduleIcons = jQuery('.schedule-icons');
+    const JQAboutUsIcon1 = jQuery('.about-us-icon1');
+    const JQAboutUsIcon2 = jQuery('.about-us-icon2');
+    const JQAboutUsIcon3 = jQuery('.about-us-icon3');
     
     JQueryScheduleIcons.on('click', function() {console.log('test klika!!!')})
 
     function setMenuFixed() {
         if (jQwindow.scrollTop() > 400){
             jQuery('.navbar').addClass('fixed-top');
-            jQuery('.about-us-img').animate({left: '0px'}, "slow");
-            // jQuery('.utw-logo-min').css('display', 'block');
+            jQuery('.about-us-img').animate({left: '0px'}, 1000);
             jQuery('.utw-logo-min').fadeIn('slow');
             jQuery('.navbar-brand-text').fadeOut('fast');
 
@@ -26,11 +28,26 @@ jQuery(document).ready(function() {
     }
 
     function scheduleIconsShow() {
-        if(jQwindow.scrollTop() > 920){
-            jQuery('.schedule-icon').fadeIn(1000);
+        if(jQwindow.scrollTop() > 1200){
+            jQuery('.schedule-icon1').animate({left:0}, 1000);
+            jQuery('.schedule-icon2').animate({left:0}, 1500);
         }
     }
 
+    function aboutUsIconsAnimation() {
+        if (jQwindow.scrollTop() > 720) {
+            console.log('tu wiezdzaja piksele!!!!')
+            // JQAboutUsIcon1.fadeIn(500, function () {
+            //     JQAboutUsIcon2.fadeIn(150, function () {
+            //         JQAboutUsIcon3.fadeIn(150);
+            //     });
+            // });
+            JQAboutUsIcon1.animate({opacity:1}, 1500);
+            JQAboutUsIcon2.animate({opacity:1}, 2000);
+            JQAboutUsIcon3.animate({opacity:1}, 2500);
+}}
+
     jQwindow.on('scroll', setMenuFixed);
     jQwindow.on('scroll', scheduleIconsShow);
+    jQwindow.on('scroll', aboutUsIconsAnimation);
 });
