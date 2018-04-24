@@ -28,7 +28,7 @@ jQuery(document).ready(function() {
     }
 
     function scheduleIconsShow() {
-        if(jQwindow.scrollTop() > 1200){
+        if(jQwindow.scrollTop() > 1100){
             jQuery('.schedule-icon1').animate({left:0}, 1000);
             jQuery('.schedule-icon2').animate({left:0}, 1500);
         }
