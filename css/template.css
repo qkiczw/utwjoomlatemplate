@@ -42,7 +42,7 @@ header{
 
 /* NAV */
 .utw-logo-min{
-    max-width: 50px;
+    max-width: 45px;
     display: none;
 }
 
@@ -111,6 +111,16 @@ a.mod-articles-category-title:last-child{
 }
 
 .last-news p:last-child {
+    margin-bottom: 20px;
+}
+
+.newsflash{
+    display: flex;
+    flex-direction: column;
+}
+
+.newsflash > a.readmore{
+    margin-top: -10px;
     margin-bottom: 20px;
 }
 
