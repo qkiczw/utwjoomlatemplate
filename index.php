@@ -46,7 +46,7 @@
                         <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=3">Rekrutacja</a>
                         <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=1">Plan</a>
                         <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=5">Turystyka</a>
-                        <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=4">Projekty</a>
+                        <!-- <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=4">Projekty</a> -->
                         <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=2">Kontakt</a>
                         </div>
                     </div>

@@ -5,10 +5,17 @@ jQuery.noConflict();
 jQuery(document).ready(function() {
     const jQwindow = jQuery(window);
     let JQueryScheduleIcons = jQuery('.schedule-icons');
-    const JQAboutUsIcon1 = jQuery('.about-us-icon1');
-    const JQAboutUsIcon2 = jQuery('.about-us-icon2');
-    const JQAboutUsIcon3 = jQuery('.about-us-icon3');
-    
+    const JQaboutUsIcon1 = jQuery('.about-us-icon1');
+    const JQaboutUsIcon2 = jQuery('.about-us-icon2');
+    const JQaboutUsIcon3 = jQuery('.about-us-icon3');
+    const JQgetLink = jQuery('.navbar-nav>li>a')
+    const JQgetNavCollapse = jQuery('.navbar-collapse');
+
+    function navHide(){
+        JQgetNavCollapse.collapse('hide');
+    }
+    JQgetLink.on('click', navHide);
+
     JQueryScheduleIcons.on('click', function() {console.log('test klika!!!')})
 
     function setMenuFixed() {
@@ -17,9 +24,7 @@ jQuery(document).ready(function() {
             jQuery('.about-us-img').animate({left: '0px'}, 1000);
             jQuery('.utw-logo-min').fadeIn('slow');
             jQuery('.navbar-brand-text').fadeOut('fast');
-
             console.log('od góry: ' + jQwindow.scrollTop() + 'px');
-            
         } else{
             jQuery('.navbar').removeClass('fixed-top');
             jQuery('.utw-logo-min').fadeOut();
@@ -37,14 +42,9 @@ jQuery(document).ready(function() {
     function aboutUsIconsAnimation() {
         if (jQwindow.scrollTop() > 720) {
             console.log('tu wiezdzaja piksele!!!!')
-            // JQAboutUsIcon1.fadeIn(500, function () {
-            //     JQAboutUsIcon2.fadeIn(150, function () {
-            //         JQAboutUsIcon3.fadeIn(150);
-            //     });
-            // });
-            JQAboutUsIcon1.animate({opacity:1}, 1500);
-            JQAboutUsIcon2.animate({opacity:1}, 2000);
-            JQAboutUsIcon3.animate({opacity:1}, 2500);
+            JQaboutUsIcon1.animate({opacity:1}, 1500);
+            JQaboutUsIcon2.animate({opacity:1}, 2000);
+            JQaboutUsIcon3.animate({opacity:1}, 2500);
 }}
 
     jQwindow.on('scroll', setMenuFixed);
