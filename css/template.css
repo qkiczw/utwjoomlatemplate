@@ -245,6 +245,30 @@ a.mod-articles-category-title:last-child{
     left: -1500px;
     transform: rotate(-5deg);
 }
+.year-organization{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.year-organization a{
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    transition-duration: 0.3s;
+}
+.year-organization a:hover{
+    background: #1565C0;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
 /* MAIN CONTACT */
 .main-contact h3{
     font-size: 2rem;
@@ -278,6 +302,7 @@ p:last-child{
 /* Main Section Article Title */
 .mod-articles-category-title{
     font-size: 28px;
+    
 }
 
 .page-header > h2 {
