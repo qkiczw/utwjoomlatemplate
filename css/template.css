@@ -90,6 +90,10 @@ nav ul li{
     background-image: url("../images/news-bg.jpg");
     background-position: 50% 50%;
     background-attachment: fixed;
+
+}
+.last-news a{
+    text-decoration: none;
 }
 
 .last-news h3{
@@ -134,6 +138,11 @@ a.mod-articles-category-title:last-child{
 .main-about-us{
     padding: 0;
 }
+.main-about-us-short-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 .moduletablemain-about-us-module{
     background-color: #FFD54F;
     padding-left: 10px;
@@ -154,6 +163,7 @@ a.mod-articles-category-title:last-child{
 .about-us-icons{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     text-align: center;
 }
 .about-us-icons img:hover{
@@ -194,7 +204,12 @@ a.mod-articles-category-title:last-child{
     color: #FFFFFF;
     cursor: pointer;
 }
-
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 /* MAIN SCHEDULE */
 .main-schedule{
     background-image: url("../images/schedule-bg.jpg");
@@ -284,7 +299,13 @@ a.mod-articles-category-title:last-child{
 .main-contact a{
  color: #FFFFFF;
 }
-
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
 .footer{
     text-align: center;
     background-color: grey;
