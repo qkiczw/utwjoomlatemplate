@@ -210,6 +210,26 @@ a.mod-articles-category-title:last-child{
     justify-content: flex-start;
     align-items: flex-start;
 }
+
+.blog h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.items-leading{
+    display:  flex;
+    flex-direction:  column;
+    align-items:  flex-start;
+}
+.blog .page-header h2 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    font-size: 1.7rem;
+}
+
 /* MAIN SCHEDULE */
 .main-schedule{
     background-image: url("../images/schedule-bg.jpg");
@@ -234,7 +254,7 @@ a.mod-articles-category-title:last-child{
 }
 .schedule-icon{
     position: relative;
-    max-width: 400px;
+    max-width: 300px;
     padding: 5px;
 }
 
@@ -342,7 +362,7 @@ p:last-child{
     .header-school-name{
         display: flex;
         align-items: center;
-        font-size: 2rem;    
+        font-size: 3.5rem;    
     }
     .main-contact{
         font-size: 1.3rem;
@@ -358,5 +378,8 @@ p:last-child{
     }
     .main-contact{
         font-size: 1.5rem;
+    }
+    .schedule-icon{
+        max-width: 350px;
     }
   }

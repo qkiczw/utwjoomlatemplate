@@ -40,9 +40,9 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="#">Start <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="http://ckusopot.pl/utw/">Start <span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=6">O nas</a>
-                        <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=category&id=8">Aktualności</a>
+                        <a class="nav-item nav-link" href="https://ckusopot.pl/utw/index.php/news-test?limitstart=0">Aktualności</a>
                         <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=3">Rekrutacja</a>
                         <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=1">Plan</a>
                         <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=5">Turystyka</a>
