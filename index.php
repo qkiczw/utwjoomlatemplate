@@ -34,7 +34,10 @@
             </header>
             <!-- Navigation menu -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#"><div><img class="utw-logo-min img-fluid" src="templates/<?php echo $this->template; ?>/images/utw-logo-min.png"></div><div class="navbar-brand-text">UTW</div></a>
+                    <a class="navbar-brand" href="http://ckusopot.pl/utw">
+                    <div class="utw-logo-min">WWW.SUTWSOPOT.PL</div><div class="navbar-brand-text">UTW</div>
+                        <!-- <div><img class="utw-logo-min img-fluid" src="templates/<?php echo $this->template; ?>/images/utw-logo-min.png"></div><div class="navbar-brand-text">UTW</div> -->
+                    </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -45,7 +48,7 @@
                         <a class="nav-item nav-link" href="https://ckusopot.pl/utw/index.php/news-test?limitstart=0">Aktualności</a>
                         <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=3">Rekrutacja</a>
                         <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=1">Plan</a>
-                        <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=5">Turystyka</a>
+                        <!-- <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=5">Turystyka</a> -->
                         <!-- <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=4">Projekty</a> -->
                         <a class="nav-item nav-link" href="http://ckusopot.pl/utw/index.php?option=com_content&view=article&id=2">Kontakt</a>
                         </div>
