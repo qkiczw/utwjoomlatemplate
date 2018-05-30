@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!--CSS-->
     <link href="templates/<?php echo $this->template; ?>/css/my-responsive.css" rel="stylesheet">
     <link href="templates/<?php echo $this->template; ?>/css/template.css" rel="stylesheet">
@@ -35,8 +37,7 @@
             <!-- Navigation menu -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <a class="navbar-brand" href="http://ckusopot.pl/utw">
-                    <div class="utw-logo-min">WWW.SUTWSOPOT.PL</div><div class="navbar-brand-text">UTW</div>
-                        <!-- <div><img class="utw-logo-min img-fluid" src="templates/<?php echo $this->template; ?>/images/utw-logo-min.png"></div><div class="navbar-brand-text">UTW</div> -->
+                        <div><img class="utw-logo-min img-fluid" src="templates/<?php echo $this->template; ?>/images/utw-logo-min.png"></div><div class="navbar-brand-text">WWW.SUTWSOPOT.PL</div>
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
