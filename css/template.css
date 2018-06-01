@@ -152,6 +152,7 @@ a.mod-articles-category-title:last-child{
 /* MAIN ABOUT US */
 .main-about-us{
     padding: 0;
+    max-width: 100%;
 }
 .main-about-us-short-desc{
     display: flex;
@@ -346,9 +347,6 @@ a.mod-articles-category-title:last-child{
 }
 
 /* MAIN CONTACT */
-.main-about-us{
-    width: 100px;
-}
 .main-contact h3{
     font-size: 2rem;
     text-align: center;

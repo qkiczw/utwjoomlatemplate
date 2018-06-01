@@ -21,7 +21,6 @@ jQuery(document).ready(function() {
     function setMenuFixed() {
         if (jQwindow.scrollTop() > 400){
             jQuery('.navbar').addClass('fixed-top');
-            jQuery('.about-us-img').animate({left: '0px'}, 1000);
             jQuery('.utw-logo-min').fadeIn('slow');
             jQuery('.navbar-brand-text').fadeOut('fast');
             console.log('od góry: ' + jQwindow.scrollTop() + 'px');
@@ -33,21 +32,26 @@ jQuery(document).ready(function() {
     }
 
     function scheduleIconsShow() {
-        if(jQwindow.scrollTop() > 1100){
+        if(jQwindow.scrollTop() > 1400){
             jQuery('.schedule-icon1').animate({left:0}, 1000);
             jQuery('.schedule-icon2').animate({left:0}, 1500);
         }
     }
 
     function aboutUsIconsAnimation() {
-        if (jQwindow.scrollTop() > 720) {
+        if (jQwindow.scrollTop() > 750) {
             console.log('tu wiezdzaja piksele!!!!')
             JQaboutUsIcon1.animate({opacity:1}, 1500);
             JQaboutUsIcon2.animate({opacity:1}, 2000);
             JQaboutUsIcon3.animate({opacity:1}, 2500);
 }}
+    function showAboutUsImgCarousele() {
+        if (jQwindow.scrollTop() > 700) {
+            jQuery('.about-us-img').animate({left: '0px'}, 1000);
+    }}
 
     jQwindow.on('scroll', setMenuFixed);
     jQwindow.on('scroll', scheduleIconsShow);
     jQwindow.on('scroll', aboutUsIconsAnimation);
+    jQwindow.on('scroll', showAboutUsImgCarousele)
 });
