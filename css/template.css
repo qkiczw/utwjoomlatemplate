@@ -23,9 +23,12 @@ background-color: burlywood;
 
 header{
     box-sizing: border-box;
-    height: 400px;
+    max-height: 400px;
     background-image: url("../images/header-bg.jpg");
     background-position: 50% 50%;
+}
+.header-logo-area figure{
+    margin-bottom: 0; 
 }
 
 .header-logo{
@@ -37,6 +40,7 @@ header{
     font-weight: bold;
     color: #FFFFFF;
     line-height: 1.2;
+    margin-bottom: 20px;
 
 }
 
@@ -342,13 +346,14 @@ a.mod-articles-category-title:last-child{
 }
 
 /* MAIN CONTACT */
+.main-about-us{
+    width: 100px;
+}
 .main-contact h3{
     font-size: 2rem;
     text-align: center;
     padding-top: 50px;
-    /* padding-bottom: 20px; */
 }
-
 .moduletable-main-contact{
     background-color: #2196F3;
 }
@@ -357,7 +362,6 @@ a.mod-articles-category-title:last-child{
     color: #FFFFFF;
     padding: 0;
 }
-
 .main-contact a{
  color: #FFFFFF;
 }
@@ -441,6 +445,10 @@ p:last-child{
     }
     .main-contact{
         font-size: 1.3rem;
+    }
+    .header-school-name{
+        margin-bottom: 0;
+    
     }
  }
 
