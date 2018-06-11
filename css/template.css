@@ -4,23 +4,19 @@ font-size: 20px;
 .hidden{
 display: none;
 }
-
 /*remove margins and padding from left and right side of site*/
 .row{
     margin-left: 0;
     margin-right: 0;
 }
-
 .container-fluid{
     padding-left: 0;
     padding-right: 0;
     margin: 0
 }
-
 .base-color{
 background-color: burlywood;
 }
-
 header{
     box-sizing: border-box;
     max-height: 400px;
@@ -30,7 +26,6 @@ header{
 .header-logo-area figure{
     margin-bottom: 0; 
 }
-
 .header-logo{
     max-width: 250px;
 }
@@ -41,15 +36,12 @@ header{
     color: #FFFFFF;
     line-height: 1.2;
     margin-bottom: 20px;
-
 }
-
 /* NAV */
 .utw-logo-min{
     max-width: 45px;
     display: none;
 }
-
 .navbar-brand{
     display: flex;
     align-items: center;
@@ -57,7 +49,6 @@ header{
 .navbar-brand-text{
     position: absolute;
 }
-
 .main-nav{
     display: flex;
     justify-content: flex-end;
@@ -74,20 +65,16 @@ header{
     text-decoration: none;
     background-color: none;
 }
-
 nav, .navbar-brand{
     font-size: 1.5rem;
 }
-
 nav ul{
     justify-content: flex-end;
 }
-
 nav ul li{
     padding-right: 10px;
     padding-top: 20px; 
 }
-
 /* LAST NEWS */
 .newsflash img{
 border: 2px solid #007bff;
@@ -102,19 +89,16 @@ margin-left: 5px;
     background-image: url("../images/news-bg.jpg");
     background-position: 50% 50%;
     background-attachment: fixed;
-
 }
 .last-news a{
     text-decoration: none;
 }
-
 .last-news h3{
     font-size: 2rem;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 20px;
 }
-
 .last-news ul{
     list-style: none;
 }
@@ -125,11 +109,9 @@ p.mod-articles-category-introtext{
 a.mod-articles-category-title:last-child{
     font-size: 1.2rem;
 }
-
 .last-news p:last-child {
     margin-bottom: 20px;
 }
-
 .newsflash{
     display: flex;
     flex-direction: column;
@@ -137,18 +119,15 @@ a.mod-articles-category-title:last-child{
 .newsflash > p {
     margin-bottom: 10px;
 }
-
 .newsflash > a.readmore{
     margin-top: -10px;
     margin-bottom: 20px;
 }
-
 /* MAIN CONTENT */
 #main-container{
     font-size: 1.3rem;
     line-height: 1.6rem;
 }
-
 /* MAIN ABOUT US */
 .main-about-us{
     padding: 0;
@@ -163,7 +142,6 @@ a.mod-articles-category-title:last-child{
     background-color: #FFD54F;
     padding-left: 10px;
 }
-
 .main-about-us h3{
     font-size: 2rem;
     text-align: center;
@@ -188,7 +166,6 @@ a.mod-articles-category-title:last-child{
     border-radius: 50%;
     transform: rotate(10deg);
 }
-
 .about-us-icon1, .about-us-icon2, .about-us-icon3{
     /* display: none; */
     opacity: 0;
@@ -200,7 +177,6 @@ a.mod-articles-category-title:last-child{
     display: flex;
     justify-content: center;
 }
-
 .about-us-btn-paragraph{
     display: flex;
     justify-content: center;
@@ -216,7 +192,6 @@ a.mod-articles-category-title:last-child{
     transition-duration: 0.3s;
     margin-bottom: 20px;
 }
-
 .about-us-btn:hover{
     background: #718342;
     color: #FFFFFF;
@@ -228,7 +203,6 @@ a.mod-articles-category-title:last-child{
     justify-content: flex-start;
     align-items: flex-start;
 }
-
 .blog h2{
     width: 100%;
     display: flex;
@@ -236,7 +210,6 @@ a.mod-articles-category-title:last-child{
     padding: 10px;
     margin-top: 20px;    
 }
-
 .items-leading{
     display:  flex;
     flex-direction:  column;
@@ -248,7 +221,6 @@ a.mod-articles-category-title:last-child{
     align-items:  flex-start;
     margin-bottom: 20px;
 }
-
 .items-leading p{
     margin-bottom: 0;
 }
@@ -259,14 +231,12 @@ a.mod-articles-category-title:last-child{
 .items-leading .readmore .btn{
     font-size: 20px;
 }
-
 .blog .page-header h2 {
     display: flex;
     justify-content: flex-start;
     padding: 0;
     font-size: 1.7rem;
 }
-
 /* MAIN SCHEDULE */
 .main-schedule{
     background-image: url("../images/schedule-bg.jpg");
@@ -279,7 +249,6 @@ a.mod-articles-category-title:last-child{
     padding-top: 50px;
     padding-bottom: 20px;
 }
-
 .schedule-icons{
     display: flex;
     flex-direction: column;
@@ -289,7 +258,6 @@ a.mod-articles-category-title:last-child{
     font-size: 2rem;
     overflow: hidden;
     margin-bottom: 20px;
-
 }
 .schedule-icons > p {
     margin-bottom: 0;
@@ -299,11 +267,9 @@ a.mod-articles-category-title:last-child{
     max-width: 200px;
     padding: 5px;
 }
-
 .schedule-icon:hover{
     cursor: pointer;
 }
-
 .schedule-icon1{
     position: relative;
     left: -1500px;
@@ -345,7 +311,6 @@ a.mod-articles-category-title:last-child{
     color: #FFFFFF;
     cursor: pointer;
 }
-
 /* MAIN CONTACT */
 .main-contact h3{
     font-size: 2rem;
@@ -373,23 +338,18 @@ a.mod-articles-category-title:last-child{
 .footer{
     text-align: center;
     background-color: grey;
-    color: #FFFFFF;
-    
+    color: #FFFFFF;  
 }
 .footer a{
     color: #FFFFFF;
 }
-
 p:last-child{
     margin-bottom: 0;
 }
-
 /* Main Section Article Title */
 .mod-articles-category-title{
-    font-size: 28px;
-    
+    font-size: 28px;   
 }
-
 .page-header > h2 {
     text-align: center;
     padding: 10px;   
@@ -413,15 +373,12 @@ p:last-child{
     list-style: none;
     padding: 0;
 }
-
 /* simple gallery center position*/
 .sigFreeContainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     }
-    
-
 /*---- MEDIA QUERIES ----*/
 @media (min-width: 576px) {
     .header-logo{
@@ -434,7 +391,6 @@ p:last-child{
         font-size: 1.3rem;
     }
 }
-
 @media (min-width: 768px) {
     .header-school-name{
         display: flex;
@@ -446,10 +402,11 @@ p:last-child{
     }
     .header-school-name{
         margin-bottom: 0;
-    
+    }
+    .avPlayerContainer{
+        max-width: 770px;
     }
  }
-
  @media (min-width: 1200px) {
     .header-logo{
         max-width: 400px;
